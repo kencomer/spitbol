@@ -17,7 +17,7 @@ loop
 
     line = input                                     :f(end)
 
-*   Copy blank and comment lines as it.
+*   Copy blank and comment lines as is.
 
     ident(line)                                      :s(copy)
     line '*'                                         :s(copy)
